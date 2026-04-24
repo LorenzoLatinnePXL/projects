@@ -1,10 +1,11 @@
 {
 	"compilerOptions": {
 		"esModuleInterop": true,
-		"ignoreDeprecations": "6.0",
-		"moduleResolution": "node",
+		"moduleResolution": "nodenext",
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "es2021"
+		"target": "es2021",
+		"ignoreDeprecations": "7.0"
 	}
+}
 }
