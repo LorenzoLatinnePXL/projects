@@ -49,7 +49,7 @@ if (clownsCount > 2) {
 	console.log("We've got a lot of clowns coming!");
 }
 
-if (matchingsDescription.length()) {
+if (matchingsDescription.length) {
 	console.log(`There will be ${clownsCount} clowns!\n`);
 	console.log(matchingsDescription);
 	console.log(`The last clown is: ${lastClown.toUpperCase()}!`);
