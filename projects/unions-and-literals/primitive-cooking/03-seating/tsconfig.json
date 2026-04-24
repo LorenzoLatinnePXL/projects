@@ -1,4 +1,7 @@
 {
 	"extends": "../../../../tsconfig.json",
-	"include": ["."]
+	"include": ["."],
+	"compilerOptions": {
+		"ignoreDeprecations": "6.0"
+	}
 }
